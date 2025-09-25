@@ -1,4 +1,4 @@
-import { FaChartLine, FaCogs, FaTachometerAlt } from "react-icons/fa";
+import {FaChartLine, FaChartBar, FaUsers } from "react-icons/fa";
 export const heroData = {
   name: "Tapan Kalapahad",
   role: "BI Developer",
@@ -64,27 +64,44 @@ export const experience = [
   }
 ];
 
-
 export const projects = [
-  {
-    title: "Process Digitalization & Data Analysis",
-    description: "Implemented Trigger Management System, automated PPC planning, and web applications to streamline automation.",
-    tools: ["Power BI", "Power Apps", "Power Automate", "SAP"],
-    icon: FaCogs
-  },
-  {
-    title: "Automation Implementation",
-    description: "Implemented Order Management System, Manufacturing Execution System and Semi Auto Label Sticker.",
-    tools: ["Power BI", "Power Apps", "ERP"],
-    icon: FaTachometerAlt
-  },
   {
     title: "Dashboard Development",
     description: "Created dashboards in Power BI and SQL to track production, sales, inventory, HR metrics, and supply chain.",
     tools: ["Power BI", "SQL"],
-    icon: FaChartLine
+    icon: FaChartLine,
+    link:"https://github.com/kalapahad2000/Production-Performance-Dashboard"
+  },
+  {
+    title: "Sales Analysis Project",
+    description: "Analyzed sales data for SN Corporation. Data cleaning, preparation, and visualization in Power BI to provide actionable insights. [View Project](https://lnkd.in/gjgZXURM)",
+    tools: ["Power BI", "Data Analysis", "Data Visualization"],
+    icon: FaChartBar,
+    link:"https://github.com/kalapahad2000/Pizza-Sales-Report"
+  },
+  {
+    title: "Corp Data Insights",
+    description: "Power BI project focused on corporate data analysis, providing users with clear and compelling visuals. Includes yield analysis, variety distribution, geographical trends, seasonality impact, and more.",
+    tools: ["Power BI", "Data Analysis", "Visualization"],
+    icon: FaChartLine,
+    link:"https://github.com/kalapahad2000/SN-Crop-Power-BI-Dashboard"
+  },
+  {
+    title: "Animated Order Trends Dashboard",
+    description: "Visualizing monthly total order trends with animated charts in Power BI, making it easier to spot patterns and track growth over time.",
+    tools: ["Power BI", "Animated Charts", "Data Visualization"],
+    icon: FaChartBar,
+    link:"https://github.com/kalapahad2000/Power-BI-Dashboard-for-AdventureWorks"
+  },
+  {
+    title: "HR Analysis Project",
+    description: "HR data analysis in Power BI. Data cleaning, Power Query, DAX measures, charts, filters, slicers, dashboards, exporting, and deriving insights from dashboards. [View Project](https://lnkd.in/gjgZXURM)",
+    tools: ["Power BI", "Power Query", "DAX", "Dashboarding"],
+    icon: FaUsers,
+    link:"https://github.com/kalapahad2000/HR-Analytics-Dashboard"
   }
 ];
+
 
 export const certificates = [
   {
