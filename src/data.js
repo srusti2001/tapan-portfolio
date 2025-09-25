@@ -41,15 +41,18 @@ export const experience = [
     company: "Jindal Aluminium Limited",
     role: "Power BI Developer - Business Operations",
     duration: "Apr 2022 - Present",
-    projectBrief: "Developed MIS reports, dashboards, and automation tools for supply chain, sales, HR, finance, and production. Integrated SAP & ERP data for real-time analysis.",
+    projectBrief: "Process Digitalization, MIS Analysis & Data Analysis, Automation Implementation, Dashboard Development, and Process Improvement.",
     responsibilities: [
-      "Built 60+ MIS reports and dashboards in Power BI.",
-      "Created Trigger Management System with Power Apps & Power Automate.",
-      "Implemented Civil Works Daily Tracker & Project Progress Tracker.",
-      "Analyzed customer complaints using SQL & Power BI, reducing complaints by 30%.",
-      "Conducted UAT for Automation Projects OMS and CIMS."
+      "Developed 60+ MIS reports in Power BI, providing real-time insights into supply chain, sales, human resources, import, export, finance, legal, costing, quality, maintenance, production performance, and the status of SAP enhancement projects and customized web application projects.",
+      "Automated and consolidated 125+ reports from different departments into 60+ dynamic Power BI reports for real-time analysis and data-driven decision-making.",
+      "Integrated SAP HANA and ERP data sources with BI tools to enable continuous data flow for real-time analysis.",
+      "Developed a Trigger Management System across cross-functional departments to send reminders before the expiry date of subscriptions or AMC renewals.",
+      "Analyzed customer complaints using Power BI and SQL, leading to a 30% reduction in complaints.",
+      "Automated PPC planning via SAP analysis, Power BI reports, and PPC logic, centralizing operations.",
+      "Developed and implemented an automated label printing Excel sheet using VBA to accurately print customer order details on stickers, saving each shop floor supervisor 2 hours per day.",
+      "Played a pivotal role in the successful execution of the Automation Project OMS and CIMS. Responsibilities"
     ],
-    result: "Improved operational efficiency and reduced complaints by 30%."
+    result: "Improved operational efficiency, reduced complaints by 30% and process automation."
   },
   {
     company: "Polybond India Pvt Ltd",
@@ -66,39 +69,44 @@ export const experience = [
 
 export const projects = [
   {
-    title: "Dashboard Development",
-    description: "Created dashboards in Power BI and SQL to track production, sales, inventory, HR metrics, and supply chain.",
-    tools: ["Power BI", "SQL"],
+    title: "Production Performance Dashboard",
+    description: "Production performance contains daily operation KPIs for trend analysis on a day-wise, MTD, and YTD basis for decision-making and expanding units as per demand.",
+    tools: ["Power BI", "SQL","SAP","Excel"],
     icon: FaChartLine,
-    link:"https://github.com/kalapahad2000/Production-Performance-Dashboard"
+    link:"https://github.com/kalapahad2000/Production-Performance-Dashboard",
+    image:"/images/Prod.jpeg"
   },
   {
-    title: "Sales Analysis Project",
-    description: "Analyzed sales data for SN Corporation. Data cleaning, preparation, and visualization in Power BI to provide actionable insights. [View Project](https://lnkd.in/gjgZXURM)",
-    tools: ["Power BI", "Data Analysis", "Data Visualization"],
+    title: "Pizza Sales Power BI Dashboard",
+    description: "The Pizza Sales Project is a data analysis and visualization project aimed at analyzing and visualizing sales data from a fictional pizza restaurant chain. This project utilizes SQL for data extraction and transformation and Power BI for data visualization. The goal of this project is to provide insights and actionable information to help the pizza restaurant chain optimize its operations, improve sales, and enhance customer satisfaction.",
+    tools: ["Power BI", "Data Analysis", "Data Visualization","SQL","Excel"],
     icon: FaChartBar,
-    link:"https://github.com/kalapahad2000/Pizza-Sales-Report"
+    link:"https://github.com/kalapahad2000/Pizza-Sales-Report",
+    image:"/images/Pizza.jpeg"
   },
   {
-    title: "Corp Data Insights",
-    description: "Power BI project focused on corporate data analysis, providing users with clear and compelling visuals. Includes yield analysis, variety distribution, geographical trends, seasonality impact, and more.",
+    title: "SN Crop Power BI Dashboard",
+    description: "This project harnesses the power of Power BI to bring insights and visualizations to life, specifically focused on crop data.The goal is to provide users with valuable information and analysis through clear and compelling visuals, helping them understand various aspects of crop data.",
     tools: ["Power BI", "Data Analysis", "Visualization"],
     icon: FaChartLine,
-    link:"https://github.com/kalapahad2000/SN-Crop-Power-BI-Dashboard"
+    link:"https://github.com/kalapahad2000/SN-Crop-Power-BI-Dashboard",
+    image:"/images/SNCrop.jpeg"
   },
   {
-    title: "Animated Order Trends Dashboard",
-    description: "Visualizing monthly total order trends with animated charts in Power BI, making it easier to spot patterns and track growth over time.",
+    title: "Adventure Works Power BI Dashboard",
+    description: "This Power BI dashboard empowers AdventureWorks, a global cycling equipment manufacturer, with data-driven insights for informed decision-making. It equips the management team to analyze key performance indicators (KPIs), identify regional sales variations, understand product performance trends, and segment high-value customers.",
     tools: ["Power BI", "Animated Charts", "Data Visualization"],
     icon: FaChartBar,
-    link:"https://github.com/kalapahad2000/Power-BI-Dashboard-for-AdventureWorks"
+    link:"https://github.com/kalapahad2000/Power-BI-Dashboard-for-AdventureWorks",
+    image:"/images/Adventure.jpeg"
   },
   {
-    title: "HR Analysis Project",
-    description: "HR data analysis in Power BI. Data cleaning, Power Query, DAX measures, charts, filters, slicers, dashboards, exporting, and deriving insights from dashboards. [View Project](https://lnkd.in/gjgZXURM)",
+    title: "HR Analysis Power BI Dashboard",
+    description: "Help an organization to improve employee performance and improve employee retention (reduce attrition) by creating a HR Analytics dashboard.",
     tools: ["Power BI", "Power Query", "DAX", "Dashboarding"],
     icon: FaUsers,
-    link:"https://github.com/kalapahad2000/HR-Analytics-Dashboard"
+    link:"https://github.com/kalapahad2000/HR-Analytics-Dashboard",
+    image:"/images/HR.jpeg"
   }
 ];
 
